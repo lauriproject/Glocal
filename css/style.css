@@ -1,0 +1,313 @@
+@charset "utf-8";
+/* CSS Document */
+
+body{
+	background-color: #007b77;
+	font-family: "Open Sans","Helvetica Neue",Helvetica,Arial,sans-serif;
+	padding: 50px 0px 0px;
+	margin:0;
+	overflow-x:hidden;
+	position: relative;
+	
+}
+
+.navbar-default {
+    background-color: #fff;
+	border:0px;
+	box-shadow: 0 10px 6px -10px #333;
+}
+
+.navbar-fixed-top{
+	top:0px;
+}
+
+.navbar-right {
+	text-align:center;
+	
+}
+
+
+.mid-brand {
+    position: absolute;
+    left: 50%;
+    display: block;
+    width: 160px;
+    text-align: center;
+	margin-top:5px;
+	margin-left: -80px;
+}
+
+.navbar-toggle{
+	border:0px;
+}	
+
+
+.jumbotron {
+	padding-top:180px;
+	background:none;
+	
+}
+
+.jumbotron h1{
+	font-family: "Montserrat", sans-serif;
+	color: #FFFC19;
+    line-height: 1.3em;
+}
+
+.jumbotron h4{
+	font-weight:400;
+	text-align:center;
+}	
+
+.header {
+    height: 55em;
+    margin-bottom: 2em;
+    background-image: url(../images/hero-01.png) ;
+    background-size: cover;
+    color: #fff;
+    text-align: center;
+}
+
+
+.dona{
+	background-color:#00b6f1;
+	color: #FFF;
+}
+
+.dona a {
+    color: #FFF;
+}
+
+
+
+.scopri{
+	color:#00b6f1;
+	background-color:transparent;
+	margin:10px;		
+}
+
+.scopri a{
+	text-decoration:none;
+}
+
+.scopri a:focus a:hover;{
+	color:#00b6f1;
+	text-decoration: none;
+}
+
+
+.dona a:focus, a:hover {
+    color: #fff;
+    text-decoration: none;
+}	
+
+.btn {
+    transition: .2s;
+	border: 1.2px solid #00b6f1;
+	text-decoration: none;
+}
+
+/* On hover, the color of .btn will transition to white with black text */
+.btn:hover, .btn:focus {
+	background-color: #0971b2;
+	color: #fff;
+	text-decoration: none;
+	border: 1.5px solid #0971b2;
+	
+}
+
+
+.arrow {
+	border-style:solid;
+	border-color:#FFF;
+    border-width: 0 3px 3px 0;
+    display: inline-block;
+    padding: 20px;
+	transform: rotate(45deg);
+    -webkit-transform: rotate(45deg);
+}
+
+.arrow-wrap {
+	border-color: #ffffff transparent transparent transparent;
+	border-width: 3em 3em 0 3em;
+
+}
+
+
+.colums{
+	text-align: center;
+	color:#FFF;
+}
+
+.colums h3{
+
+	font-family: "Montserrat", sans-serif;
+	color: #FFFC19;
+    line-height: 1.3em;
+}
+
+.colums p{
+	font-size: 18px;
+	font-weight: 300;
+}
+
+
+.bg-green{
+	background-image:url(../images/Untitled-1-01-01.svg);
+	background-size:cover;
+	background-repeat:no-repeat;
+}
+
+.page-header{
+	color:#007b77;
+	border-bottom:hidden;
+	text-align:center;
+}
+
+.featurette h2{
+-webkit-margin-before: 0em;
+}
+
+
+.featurette p{
+	color:#005664;
+}
+
+
+.service h1{
+	color:#0971b2;
+	text-align:center;
+}
+
+.carousel-indicators {
+	bottom: -35px;
+}
+
+.carousel-inner h4{
+	color:#FFF;
+	font-weight:300;
+	line-height:1.3em; 
+}
+
+
+.alt2{
+	background-image:url(../images/bg-01.svg);
+	background-size:cover;
+	background-repeat:no-repeat;
+	
+}
+
+.testimonials h1{
+	color:#FFF;
+	margin-bottom:0px;
+}
+
+.alt3{
+	margin-top:-30px;
+	background-color:#FFF;
+}
+
+.facebook {
+    padding: 0 15px;
+    background: url(../images/facebookGE.svg) left center no-repeat;
+    background-size: 25px 25px;
+    line-height: 25px;
+    margin: 10px 0 10px;
+    text-indent: -9999px;
+}
+
+.twitter {
+    padding: 0 15px;
+    background: url(../images/twitterGE.svg) left center no-repeat;
+    background-size: 25px 25px;
+    line-height: 25px;
+    margin: 10px 0 10px;
+    text-indent: -9999px;
+}
+
+.youtube {
+    padding: 0 15px;
+    background: url(../images/youtubeGE.svg) left center no-repeat;
+    background-size: 25px 25px;
+    line-height: 25px;
+    margin: 10px 0 20px;
+    text-indent: -9999px;
+}
+
+.social {
+    display: inline-block;
+}
+
+.footer span {
+    color: #FFF;
+    font-size: 15px;
+	
+}
+
+
+.collaboration {
+    text-transform: uppercase;
+	font-size:16px;
+	font-weight:600;
+	color:#007b77;
+}
+
+
+.footer p {
+    margin: 0 0 10px;
+	
+}
+
+.text-xs-center {
+    text-align: center;
+}
+
+.unibo {
+    display: inline-block;
+	max-width: 230px;
+	margin:10px 0 10px;
+
+}
+
+.msg {
+    max-height: 60px;
+    display: inline-block;
+	margin:10px 0 10px;
+}
+
+.footer a{
+	color:#337ab7;
+}
+
+.footer:hover, .footer:focus {
+	text-decoration:underline;
+}
+
+.copyright{
+	padding: 10px 0 0px;
+	background-color:#42ab9e;
+}
+
+
+
+
+
+/* Extra small devices (phones, less than 768px) */
+/* No media query since this is the default in Bootstrap */
+
+/* Small devices (tablets, 768px and up) */
+@media (min-width: @screen-sm-min) { ... }
+ 
+
+/* Medium devices (desktops, 992px and up) */
+@media (min-width: @screen-md-min) { ... }
+
+.text-md-left{
+	text-align: left;
+}	
+
+
+/* Large devices (large desktops, 1200px and up) */
+@media (min-width: @screen-lg-min) { ... }
+
+
